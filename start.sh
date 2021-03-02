@@ -5,10 +5,10 @@ git fetch git@github.com:cvcode-6/hello-world01-master.git
 npm install --registry=https://registry.npm.taobao.org/ && npm run build
 
 # 删除容器
-#docker rm -f demo1 &> /dev/null
+docker rm -f demo1 &> /dev/null
 
 #启动容器
-docker restart 7c9406c189f6
+docker run -d -p 8080:80 -v $PWD/dist:/usr/share/nginx/html nginx
 
 
 
