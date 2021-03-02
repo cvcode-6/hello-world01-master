@@ -1,7 +1,6 @@
 <template>
   <div id="app">
       <p>java0821 全体同学 前程似锦</p>
-      <p>java0821 全体同学 貌美如花</p>
       <p>祝 java0821 全体同学 拿到自己心仪的offer</p>
       <p>祝 java0821 全体同学 拿到自己心仪的offer</p>
    <img src="https://gulionline-1.oss-cn-shanghai.aliyuncs.com/avatar/2020/12/21/5da073e79b7c43db9683b182b0a55e52.jpg"/>
